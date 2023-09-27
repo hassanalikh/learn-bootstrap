@@ -1,0 +1,31 @@
+
+
+
+
+#header{
+    color: #fff;
+    background: #e74c3c;
+}
+
+#menu{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu .list{
+    display: inline-block;
+}
+
+#menu .list-a{
+    color: #fff;
+    background: #c0392b;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+    
+} 
+#menu a:hover{
+    color:turquoise;
+    /* background-color: yellow; */
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="lect3.css">
+</head>
+<body>
+    <h2>Offset class</h2>
+    <!-- Offset class  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-2" ></div>
+            <div class="col-3 offset-2" ></div>
+        </div>
+    </div>
+<hr>
+    <!-- Reordering class -->
+    <h2>Reordering class</h2>
+    <hr>
+    <h3>Before reordering</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="background-color: pink;">
+            Col-1
+            </div>
+            <div class="col" style="background-color: brown;">
+            Col-2
+            </div>
+            <div class="col" style="background-color: blue;">
+            Col-3
+            </div>
+            <div class="col" style="background-color: navajowhite;">
+            Col-4
+            </div>
+        </div>
+    </div>
+    <h3>After reordering</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col order-4" style="background-color: pink;">
+            Col-1
+            </div>
+            <div class="col order-3" style="background-color: brown;">
+            Col-2
+            </div>
+            <div class="col order-2" style="background-color: blue;">
+            Col-3
+            </div>
+            <div class="col order-1" style="background-color: navajowhite;">
+            Col-4
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

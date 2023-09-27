@@ -1,0 +1,25 @@
+body{
+    background-color: darkgrey;
+}
+
+#header{
+    background-color:chocolate;
+}
+#navbar{
+    background-color: pink;
+}
+#navbar ul li{
+    
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#right{
+    background-color: rgb(15, 246, 169);
+}
+#left{
+    background-color: rgb(49, 176, 235);
+}
+#footer{
+    background-color: chocolate;
+}

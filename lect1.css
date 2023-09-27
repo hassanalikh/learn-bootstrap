@@ -1,0 +1,16 @@
+.container{
+    border: 10px solid red;
+}
+.Container-fluid{
+    border: 10px solid black;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+.row{
+    margin-top: 10px;
+    border: 7px solid blue;
+}
+.col{
+    
+    border: 4px solid green;
+}
