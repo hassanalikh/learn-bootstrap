@@ -1,4 +1,6 @@
-
+a{
+    text-decoration: none;
+}
 a:hover{
     text-decoration: none;
 }
@@ -53,7 +55,7 @@ a:hover{
 }
 
 #banner{
-    background: url('../css/images/banner.jpg') no-repeat 0 0;
+    background: url('../css/images/banner.png') no-repeat 0 0;
     background-size: cover;
 }
 .banner-title{
@@ -81,8 +83,20 @@ a:hover{
 }
 
 #testimonial{
+    color: #fff;
     background: url('../css/images/testimonail.png') no-repeat 0 0;
     background-size: cover;
     padding: 50px 0;
     position: relative
+}
+.testimonial:before{ 
+    
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.testimonial img{
+    border-radius: 50%;
 }
