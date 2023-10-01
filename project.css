@@ -1,16 +1,39 @@
 
-
-
+a:hover{
+    text-decoration: none;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head::after{
+    background:#e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
 
 #header{
     color: #fff;
     background: #e74c3c;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
 }
 
 #menu{
     list-style: none;
     padding: 0px;
     margin: 0px;
+    float: right
 }
 
 #menu .list{
@@ -19,13 +42,47 @@
 
 #menu .list-a{
     color: #fff;
-    background: #c0392b;
     padding: 15px 10px;
     display: block;
     text-decoration: none;
     
 } 
 #menu a:hover{
-    color:turquoise;
-    /* background-color: yellow; */
+    color: #fff;
+    background: #c0392b;
+}
+
+#banner{
+    background: url('../css/images/banner.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+
+}
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    display: inline-block;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: #fff;
+    background:rgba(231, 76, 60, 0.7) ;
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonial{
+    background: url('../css/images/testimonail.png') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative
 }
